@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class StackTests extends Assert {
     @Test
-    public void testStack() {
+    public void testPushPop() {
         Stack<Integer> stack = new Stack<Integer>(10);
         stack.push(1);
         stack.push(2);
